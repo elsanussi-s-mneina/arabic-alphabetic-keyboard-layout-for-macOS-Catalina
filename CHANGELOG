@@ -1,0 +1,12 @@
+2022-03-14:
+Create a keyboard layout for typing Arabic
+  
+  v0.86: remove hamza dead key then ayn typing hamza by itself.
+  v0.87: ensure that typing hamza dead key then space only types hamza, not hamza then space.
+
+
+2020-11-26:
+Apparently if some keys are not set to a value (such as the arrow key) they will not function in some programs on the Mac, therefore I have added a keymap that takes care of this and made it the fallback/default (i.e. baseMapSet of all other keymaps)
+
+2020-11-26, version 0.82
+Add support for caps lock. Enter key works properly again.
